@@ -4,29 +4,83 @@
         <meta charset="UTF-8">
         <title>Proyecto Portales Web</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/fontello.css">
     </head>
     <body>
         <header>
             <nav>
                 <div>
-                   <div>
-                      <h1>Proyecto Portales Web</h1>
+                   <div class="tituloPrincipal">
+                      <h1>INFO COVID-19</h1>
                    </div>
-                   <div>
-                      <ul>
-                         <li><a>Inicio</a></li>
-                         <li><a>Acerca de Nosotros</a></li>
-                         <li><a>Nuestro Trabajo</a></li>
-                         <li><a>Servicios</a></li>
-                         <li><a>Contactanos</a></li>
-                      </ul>
+                   <div class="menu">
+                        <nav>
+                            <input type="checkbox" id="btnMenu">
+                            <label for="btnMenu" class="icon-menu">Menu</label>
+                            <ul>
+                                <li><a href="#">Inicio</a></li>
+                                <!---melvin------>
+                                <li><a href="#">¿Que es el covid-19?</a></li>
+                                <!---Esta parte le toca al chino--->
+                                <li><a href="#">Medidas<span class="icon-down-open"></span></a>
+                                    <ul class="acomodar">
+                                        <li><a href="#">¿Como evitarlo?</a></li>
+                                        <li><a href="#">¿Como tratarlo?</a></li>
+                                    </ul>
+                                </li>
+                                <!---Esta parte le toca al mauri--->
+                                <li><a href="#">Impacto del covid-19<span class="icon-down-open"></span></a>
+                                    <ul class="acomodar2">
+                                        <li><a href="#">Impacto Social</a></li>
+                                        <li><a href="#">Impacto Economico</a></li>
+                                        <li><a href="#">Educacion</a></li>
+                                    </ul>
+                                </li>
+                                
+                                <li><a href="#">Informacion adicional<span class="icon-down-open"></span></a>
+                                    <ul class="acomodar3"c>
+                                        <li><a href="#">Estadisticas</a></li>
+                                        <li><a href="#">Corrupcion en tiempos de pandemia</a></li>
+                                        <li><a href="#">Comunicados</a></li>
+                                    </ul>
+                                </li>
+                                
+                                <!--AQUI PONEMOS UN FORMULARIO-->
+                                <li><a href="#">Contactenos</a></li>
+                            </ul>
+                        </nav>
                    </div>
                 </div>
              </nav>         
         </header>
-        <section>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius, maxime enim aperiam ullam nobis laudantium exercitationem eligendi nesciunt laboriosam voluptas! Maxime deleniti repudiandae voluptatem non maiores! Illum similique voluptatum sint?</p>
-        </section>
+        <!--------DE AQUI TODOS PARTEN PARA TRABAJAR (TODO DENTRO DEL MAIN)-------->
+        <main>
+            <div class="contendorPrincipal">
+                <div class="portada">
+                    <div class="capa"></div>
+                    <div class="details">
+                        <div class="detalle">
+                            <p>En este sitio web se puede encontrar información y orientaciones de la OMS acerca del actual brote de enfermedad por coronavirus (COVID-19) que fue notificado por primera vez en Wuhan (China) el 31 de diciembre de 2019. </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contenedorInformativo">
+                    <div class="contenedorInfo">
+                        <h1>La OMS contra el COVID-19</h1>
+                        <p>
+                            La OMS está colaborando estrechamente con expertos mundiales, gobiernos y asociados para ampliar rápidamente los conocimientos científicos sobre este nuevo virus, rastrear su propagación y virulencia y asesorar a los países y las personas sobre la medidas para proteger la salud y prevenir la propagación del brote.
+                        </p>
+                    </div>
+                 </div>
+                 <div class="contenedorImagen">
+                    <h1>aqui ponemos una imagen del virus culero</h1>
+                </div>
+            </div>
+        </main>
+        <!--------AQUI TERMINA-------->
         <footer>
             <div>
                 <p>Copyright 2020 &copy;</p>
